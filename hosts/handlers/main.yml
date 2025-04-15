@@ -1,0 +1,8 @@
+- name: restart apache
+  service:
+    name: "{{ apache_service }}"
+    state: restarted
+
+- name: reload firewall
+  command: ufw reload
+

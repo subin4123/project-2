@@ -1,0 +1,9 @@
+vhosts:
+  - name: web1
+    servername: web1.local
+    documentroot: /var/www/web1
+    conf_template: web1.conf.j2
+  - name: web2
+    servername: web2.local
+    documentroot: /var/www/web2
+    conf_template: web2.conf.j2

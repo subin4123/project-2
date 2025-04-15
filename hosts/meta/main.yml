@@ -1,0 +1,5 @@
+galaxy_info:
+  author: yourname
+  description: Apache virtual host deployer
+  license: MIT
+  min_ansible_version: 2.9

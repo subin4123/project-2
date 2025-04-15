@@ -1,0 +1,6 @@
+- name: Deploy Web Hosting on pc1
+  hosts: pc1
+  become: true
+  roles:
+    - hosts
+

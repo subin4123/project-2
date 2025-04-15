@@ -1,0 +1,3 @@
+# vars file for webhosting role
+apache_service: apache2
+
